@@ -1,0 +1,16 @@
+Chatie is a real time chat app project which contains features such as:
+
+- User authentication
+- Sign In with Facebook account option
+- Data storage 
+- Real time messaging 
+- Support for different message types: text, photos, videos and also location messages
+
+Stack of Chatie:
+- MVVM design pattern
+- Firebase as a backend
+- MesssageKit
+- SDWEBImage
+
+Still in progres...
+ 
