@@ -62,7 +62,8 @@ final class NewConversationViewController: UIViewController, UITableViewDelegate
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        
+        super.viewWillAppear(animated)
+        // Add code that must be executed before view will be visible
     }
     
     

@@ -255,7 +255,7 @@ final class LoginViewController: UIViewController, LoginPageConfiguration, AEAss
         guard let udName = UserDefaults.standard.value(forKey: "name"), let email = UserDefaults.standard.value(forKey: "email") else { return }
         print("UserDefaults values: \(email), \(udName)")
         
-        
+       
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -784,7 +784,6 @@ extension LoginViewController: UIImagePickerControllerDelegate, UITextFieldDeleg
     // MARK: b
     
     func presentPhotoActionSheet() {
-        
         
         let actionSheet = UIAlertController(title: "", message: "How would you like to choose your profile picture?", preferredStyle: .actionSheet)
         
